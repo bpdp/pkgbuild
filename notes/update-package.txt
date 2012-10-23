@@ -1,0 +1,16 @@
+To update package, here's what we need to do:
+1.  Download source code
+2.  Put into the directory (whatever directory)
+3.  cd into the directory
+4.  put PKGBUILD into the directory
+5.  makepkg -g => to generate md5sums
+6.  edit md5sums in PKGBUILD to reflect to generated mdsums
+7.  makepkg
+8.  when package building has been finished, su - into root
+    then 'pacman-color -U package'
+9.  makepkg --source => to generate source to be uploaded to AUR
+10. Login at AUR
+11. Flag package as outdate
+12. Select 'Submit'
+13. Upload the source which has been generated from step 9
+14. Voila! AUR will be updated using the new package PKGBUILD.
