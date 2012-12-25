@@ -9,7 +9,7 @@ url="http://www.arangodb.org/"
 license=('Apache')
 depends=('openssl' 'bash')
 makedepends=('python2')
-source=(http://www.arangodb.org/repositories/Source/ArangoDB-$pkgver.tar.bz2)
+source=(http://www.arangodb.org/repositories/stable/Source/ArangoDB-$pkgver.tar.bz2)
 md5sums=('0ad94062dbecd2347a96e5d40dd1fe16')
 
 build() {
