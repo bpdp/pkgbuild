@@ -6,6 +6,7 @@ pkgdesc="General-purpose programming language (support ISO-Prolog) which support
 arch=('i686')
 url="http://ciao-lang.org"
 license=('LGPL' 'GPL')
+conflicts=('ciao-bin-devel')
 depends=('bash')
 makedepends=('deb2targz')
 checkdepends=()
