@@ -4,7 +4,7 @@ To update package, here's what we need to do:
 3.  cd into the directory
 4.  put PKGBUILD into the directory
 5.  makepkg -g => to generate md5sums
-6.  edit md5sums in PKGBUILD to reflect to generated mdsums
+6.  edit md5sums in PKGBUILD to reflect the generated md5sums
 7.  makepkg
 8.  when package building has been finished, su - into root
     then 'pacman-color -U package'
