@@ -8,7 +8,7 @@ To update package, here's what we need to do:
 7.  makepkg
 8.  when package building has been finished, su - into root
     then 'pacman-color -U package'
-9.  makepkg --source => to generate source to be uploaded to AUR
+9.  mkaurball => to generate source to be uploaded to AUR
 10. Login at AUR
 11. Flag package as outdate
 12. Select 'Submit'
